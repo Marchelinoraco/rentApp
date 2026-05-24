@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="160" viewBox="0 0 760 160" role="img" aria-labelledby="title">
+  <title id="title">OUR RENTCAR</title>
+  <defs>
+    <linearGradient id="ourGradient" x1="0" y1="88" x2="240" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#55b7e8"/>
+      <stop offset="0.55" stop-color="#78a8df"/>
+      <stop offset="1" stop-color="#1f6ca7"/>
+    </linearGradient>
+    <linearGradient id="rentcarGradient" x1="255" y1="88" x2="740" y2="88" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ef73cc"/>
+      <stop offset="0.55" stop-color="#dd4eb1"/>
+      <stop offset="1" stop-color="#9b2d86"/>
+    </linearGradient>
+    <filter id="textShadow" x="-4%" y="-20%" width="108%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="5" stdDeviation="3" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <g transform="skewX(-10)" filter="url(#textShadow)">
+    <text
+      x="20"
+      y="112"
+      fill="url(#ourGradient)"
+      font-family="Arial Black, Arial, Helvetica, sans-serif"
+      font-size="96"
+      font-weight="900"
+      letter-spacing="-7"
+    >OUR</text>
+    <text
+      x="275"
+      y="112"
+      fill="url(#rentcarGradient)"
+      font-family="Arial Black, Arial, Helvetica, sans-serif"
+      font-size="96"
+      font-weight="900"
+      letter-spacing="-8"
+    >RENTCAR</text>
+  </g>
+</svg>
